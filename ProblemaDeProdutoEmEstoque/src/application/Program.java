@@ -25,8 +25,8 @@ public class Program {
 		System.out.print("Price: ");
 		double price = sc.nextDouble();
 		
-		System.out.print("Quantity in stock: ");
-		Integer quantity = sc.nextInt();
+//		System.out.print("Quantity in stock: ");
+//		Integer quantity = sc.nextInt();
 		
 		Product p = new Product(name, price, quantity);
 		
@@ -35,7 +35,7 @@ public class Program {
 		System.out.println();
 		
 		System.out.print("Enter the number of products to be added in stock: ");
-		quantity = sc.nextInt();
+		Integer quantity = sc.nextInt();
 		p.addProducts(quantity);
 		System.out.println();
 		System.out.print("Updated data: " + p);
